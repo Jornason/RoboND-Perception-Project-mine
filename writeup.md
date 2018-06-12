@@ -36,9 +36,9 @@ Terminal 1
 rosrun sensor_stick train_svm.py
 ```
 
-![mark](http://owj75jsw8.bkt.clouddn.com/blog/180611/4kD4BjDDe8.png?imageslim)
+![mark](http://owj75jsw8.bkt.clouddn.com/blog/180612/828fdcHI7a.jpg?imageslim)
 
-![mark](http://owj75jsw8.bkt.clouddn.com/blog/180611/h579792kHA.png?imageslim)
+![mark](http://owj75jsw8.bkt.clouddn.com/blog/180612/eB1IHbedG9.jpg?imageslim)
 
 To improve the accuracy of the predictions, use a LinearSVC classifier with a C value of 0.01
 
@@ -56,6 +56,8 @@ clf = LinearSVC(C=0.01,
                 tol=0.0002,
                 verbose=0)
 ```
+
+![mark](http://owj75jsw8.bkt.clouddn.com/blog/180612/3maICFf7ja.jpg)
 
 
 
